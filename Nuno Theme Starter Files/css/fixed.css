@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 body{
   overflow-x: hidden;
-  font-family: 'Lato',sans-serif;
+ /* font-family: 'Lato',sans-serif;*/
   color: #999;
 }
 html {
-  scroll-behavior: smooth;
+  scroll-behavior:smooth;
 }
 .navbar{
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.2rem;
   letter-spacing: .1rem;
-  background: rgba(0,0,0,0.6)!important;
+  background: #888;
 }
 .navbar-brand img{
   height: 2rem;
@@ -70,11 +70,18 @@ html {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
                 transform: scale(1.2);
 }
+#thumnail{
+  background-color: #888;
+}
 #thumbnails a{
   text-decoration: none;
   color: #555;
   font-weight: 700;
 }
+#thumnail h2,h3{
+  color: white;
+}
+
 #thumbnails:hover{
    z-index: 99;
   border: 1px;
@@ -143,9 +150,11 @@ margin-right: 0px!important;
   width: 40%;
   float: left;
 }
+
 #contact #contact-socie{
   width: 40%;
   float: right;
+
 }
 #about #introduce{
  
